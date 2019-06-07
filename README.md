@@ -29,9 +29,15 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 ## Self-Study/Essay Questions
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+  propTypes are to ensure the props, which are passed doen throghout the application are of the correct datatype. We use proptypes to prevent and detect eptential bgs in our code
 - [ ] Describe a life-cycle event in React?
+  A reasct components lifecycle starts when it gets rendered. It then gets mounted to the DOM, Can be updated, based on changing state and is ultimatley unmounted and disposed when it is n longer needed for the current UI
 - [ ] Explain the details of a Higher Order Component?
+  A higher order Component extend the functionality of a component. It is used to enrich Components in a reusable way.
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+  Linked Css file: All styles are in one place, traditional way to do things
+  Inline style: Styles component directly in the JS where the components themselves are declared, keeps the style ordered in the "right" place.
+  External library: Great flexibilty, but connected with an additioanll learning curve. Preset basic functionlity but also customisable. 
 
 ## Project Setup
 
