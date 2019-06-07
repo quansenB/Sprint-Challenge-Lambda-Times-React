@@ -6,7 +6,7 @@ const Tab = props => {
       if they match, the className should be: 'tab active-tab', 
       if it is not it should just be 'tab'*/
   const getTabClass = selected => {
-    if (selected == props.tab) {
+    if (selected === props.tab) {
       return "tab active-tab";
     } else return "tab";
   };

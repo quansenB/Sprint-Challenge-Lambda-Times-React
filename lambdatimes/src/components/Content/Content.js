@@ -27,13 +27,13 @@ export default class Content extends Component {
   };
 
   filterCards = () => {
-    let filteredCards =[];
-    if(this.state.selected === 'all'){
+    let filteredCards = [];
+    if (this.state.selected === "all") {
       return this.state.cards;
     }
-    filteredCards = this.state.cards.filter( (card) => {
-      return (card.tab === this.state.selected);
-    })
+    filteredCards = this.state.cards.filter(card => {
+      return card.tab === this.state.selected;
+    });
     return filteredCards;
   };
 
